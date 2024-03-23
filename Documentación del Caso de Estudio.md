@@ -29,9 +29,9 @@ En muchos casos, cuando no se perdía la conexión con el webhook, lo que suced�
 
 ![subscripcion_pubsub](Img/subscripcion_pubsub.png)
 
-**Cloud Functions:** Para plataformas sin integración directa con Pub/Sub, se implementaron Cloud Functions como un paso intermedio, recibiendo las notificaciones y publicándolas en Pub/Sub. Esto garantiza la continuidad y fiabilidad del flujo de datos.
+**Cloud Functions:** Para plataformas sin integración directa con Pub/Sub, se implementaron Cloud Functions como un paso intermedio, recibiendo las notificaciones y publicándolas en Pub/Sub. Esto garantiza la continuidad y fiabilidad del flujo de datos.(**_Ver archivo cloud_functions_**)
 
-**Dataflow:** La información fluye hacia Dataflow, donde se estructuran y procesan los datos de las órdenes mediante pipelines de Apache Beam, preparándolos para su almacenamiento en BigQuery. Esto permite una gestión escalable y eficiente del volumen de datos.
+**Dataflow:** La información fluye hacia Dataflow, donde se estructuran y procesan los datos de las órdenes mediante pipelines de Apache Beam, preparándolos para su almacenamiento en BigQuery. Esto permite una gestión escalable y eficiente del volumen de datos.(**_Ver archivo dataflow**)
 
 ![dataflow](Img/dataflow.png)
 
