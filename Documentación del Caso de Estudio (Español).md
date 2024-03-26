@@ -1,4 +1,3 @@
-
 # Caso de Estudio Integraciones Ecommerce
 
 ## Problemática
